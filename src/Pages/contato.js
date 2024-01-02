@@ -3,7 +3,7 @@ import { Grid, Button, TextField } from '@material-ui/core/';
 
 const Contatos = () => {
 
-    const url = 'http://localhost:5000/message'
+    const url = 'http://localhost:3000/message'
     const [message, setMessage] = useState([]);
     const [author, setAuthor] = useState('');
     const [content, setContent] = useState('');
